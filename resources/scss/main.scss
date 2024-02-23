@@ -1,0 +1,85 @@
+//
+// OneUI - UI Framework
+// --------------------------------------------------
+
+
+// User variables (your own variable overrides)
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'custom/fonts';
+@import 'custom/variables';
+@import 'custom/style';
+
+
+$theme-colors: map-merge($theme-colors, (
+    "primary": $bs-primary
+));
+$theme-colors: map-merge($theme-colors, (
+    "danger": $bs-danger
+));
+$theme-colors: map-merge($theme-colors, (
+    "secondary": $bs-secondary
+));
+// Bootstrap maps
+@import'bootstrap';
+@import "quill/dist/quill.snow.css";
+#loginForm{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    position: relative;
+    backdrop-filter: blur(15px);
+    padding: 4rem 3rem;
+}
+
+
+@media screen and (max-width: 760px) {
+    #loginForm{
+        padding: 2rem 1rem;
+        margin: 0 1rem !important;
+    }
+
+    #loginForm .text-large{
+        font-size: 1rem;
+    }
+    #loginForm label,button{
+        font-size: 0.8rem;
+    }
+    #loginForm button{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 925px) {
+
+    #loginForm{
+        padding: 2rem 1rem;
+    }
+
+    #loginForm .text-large{
+        font-size: 1.5rem;
+    }
+    #loginForm label{
+        font-size: 1rem;
+    }
+    #loginForm button{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 925px) and (max-width: 1235px) {
+    #loginForm{
+        padding: 2rem 1rem;
+    }
+
+    #loginForm .text-large{
+        font-size: 1.8rem;
+    }
+    #loginForm label{
+        font-size: 1.4rem;
+    }
+    #loginForm button{
+        font-size: 1.4rem;
+    }
+}

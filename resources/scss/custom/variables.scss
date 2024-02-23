@@ -1,0 +1,237 @@
+$gray-1: #F7FAFC;
+$gray-2: #EDF2F7;
+$gray-3: #E2E8F0;
+$gray-4: #CBD5E0;
+$gray-5: #A0AEC0;
+$gray-6: #718096;
+$gray-7: #4A5568;
+$gray-8: #2D3748;
+$gray-9: #1A202C;
+$gray-10: #171923;
+$blue-1: #EBF8FF;
+$blue-2: #CEEDFF;
+$blue-3: #90CDF4;
+$blue-4: #63B3ED;
+$blue-5: #4299E1;
+$blue-6: #3182CE;
+$blue-7: #2A69AC;
+$blue-8: #1E4E8C;
+$blue-9: #153E75;
+$blue-10: #1A365D;
+$cyan-1: #EDFDFD;
+$cyan-2: #EDFDFD;
+$cyan-3: #9DECF9;
+$cyan-4: #76E4F7;
+$cyan-5: #0BC5EA;
+$cyan-6: #00B5D8;
+$cyan-7: #00A3C4;
+$cyan-8: #0987A0;
+$cyan-9: #086F83;
+$cyan-10: #065666;
+$red-1: #FFF5F5;
+$red-2: #FED7D7;
+$red-3: #FEB2B2;
+$red-4: #FC8181;
+$red-5: #F56565;
+$red-6: #E53E3E;
+$red-7: #C53030;
+$red-8: #9B2C2C;
+$red-9: #822727;
+$red-10: #63171B;
+$orange-1: #FFFAF0;
+$orange-2: #FEEBC8;
+$orange-3: #FBD38D;
+$orange-4: #F6AD55;
+$orange-5: #ED8936;
+$orange-6: #DD6B20;
+$orange-7: #C05621;
+$orange-8: #9C4221;
+$orange-9: #7B341E;
+$orange-10: #652B19;
+$green-1: #F0FFF4;
+$green-2: #C6F6D5;
+$green-3: #9AE6B4;
+$green-4: #68D391;
+$green-5: #48BB78;
+$green-6: #38A169;
+$green-7: #2F855A;
+$green-8: #276749;
+$green-9: #22543D;
+$green-10: #1C4532;
+$bs-primary: #11047A;
+$bs-secondary: #A3AED0;
+$bs-danger: $red-7;
+$bs-gray: #ffffff;
+
+
+$cover-vh: 50;
+$upper-header-padding-top: 0.4;
+$upper-header-padding-bottom: 0;
+$upper-header-padding-left: 0.4;
+$upper-header-padding-right: 0.4;
+$link-font-size: 0.5;
+$header-link-font-size: 0.4*1.2;
+$header-link-margin: 0.2*1.1;
+$email-container-font-size: 0.5;
+$lower-header-padding-top: 0.4;
+$lower-header-padding-bottom: 0.4;
+$lower-header-padding-left: 0.4;
+$lower-header-padding-right: 0.4;
+$vl-height: 1;
+$hl-margin-top: 0.4;
+$hl-margin-bottom: 0.4;
+$hl-margin-left: 0;
+$hl-margin-right: 0;
+$logo-icon-font-size: 0.9*1.2;
+$logo-icon-margin-right: 0.312*1.2;
+$logo-title-font-size: 0.6 * 1.2;
+$logo-description-font-size: 0.4 * 1.2;
+$header-icon-margin: 0 0.3;
+$header-icon-font-size: 0.5;
+$cover-title-margin-top: 1.25;
+$cover-title-margin-top: 1.25;
+$cover-title-margin-left: 0;
+$cover-title-margin-right: 0;
+$cover-title-font-size: 2.8125;
+$cover-description-padding: 0 10%;
+$cover-description-font-size: 1.25;
+$section-typo-container-padding-top: 1;
+$section-typo-container-padding-bottom: 1;
+$section-typo-container-padding-left: 0;
+$section-typo-container-padding-right: 0;
+$section-title-font-size: 1.25  * 0.8;
+$section-description-font-size: 0.5  * 0.8;
+$contact-container-width: 10  * 0.9;
+$contact-container-padding: 0.8  * 0.8;
+$contact-form-title-font-size: 0.6;
+$contact-input-width: 100%;
+$contact-input-border-radius: 0.25;
+$contact-input-padding: 0.2  * 0.8 0.4  * 0.8;
+$contact-btn-padding: 0.312  * 0.8 0.512  * 0.8;
+$contact-btn-border-radius: 0.12  * 0.8;
+$contact-btn-font-size: 0.4  * 0.9;
+$service-item-padding-left: 1;
+$service-item-padding-right: 1;
+$service-item-height: 5;
+$factor: 1.2;
+$service-item-card-padding: 0;
+$service-item-card-body-padding: 0.5  * 0.8 0.8  * 0.8;
+$service-item-card-footer-padding: 0;
+$service-title-margin: 0.1  * 0.8 0;
+$service-title-font-size: 0.6  * 0.8;
+$gallery-item-title-font-size: 0.75  * 0.8;
+$gallery-item-title-font-weight: 600;
+$gallery-item-description-font-size: 0.5  * 0.8;
+$gallery-item-description-padding: 0.25  * 0.8 0;
+$gallery-item-price-font-size: 0.75  * 0.8;
+$gallery-item-btn-padding: 0.312  * 0.8 0.512  * 0.8;
+$gallery-item-btn-font-size: 0.5  * 0.8;
+$manager-image-width: 1.5  * 0.8;
+$manager-image-height: 1.5  * 0.8;
+$manager-name-font-size: 0.5  * 0.8;
+$manager-name-font-weight: 600;
+$package-item-img-container-height: 40%;
+$package-item-title-font-size: 0.6  * 0.8;
+$package-item-title-height: 10%;
+$package-item-description-font-size: 0.5  * 0.8;
+$package-item-description-height: 30%;
+$package-item-price-font-size: 0.6  * 0.8;
+$package-item-price-height: 10%;
+$package-item-btn-padding: 0.312  * 0.8 0.415  * 0.8;
+$package-item-btn-font-size: 0.5  * 0.8;
+$see-all-btn-padding: 0.312  * 0.8 0.6  * 0.8;
+$see-all-btn-border-radius: 0.12  * 0.8;
+$see-all-btn-font-size: 0.5  * 0.8;
+$see-all-btn-font-weight: 500;
+$see-all-btn-transition: all 0.3s ease-in-out;
+$dubai-container-padding: 0 10%;
+$dubai-service-title-font-size: 0.6  * 0.8;
+$dubai-service-image-width: 40%;
+$ratings-star-font-size: 0.5  * 0.8;
+$feedback-item-padding-left: 0.5  * 0.8;
+$feedback-item-padding-right: 0.5  * 0.8;
+$feedback-item-margin: 1  * 0.8 0;
+
+$feedback-card-body-padding: 0.5  * 0.8;
+
+$feedback-user-image-width: 25px;
+$feedback-user-image-height: 25px;
+$feedback-user-image-border-radius: 50%;
+$feedback-user-name-font-size: 0.5;
+
+$feedback-description-font-size: 0.625  * 0.8;
+
+$about-col-padding-left: 0.5  * 0.8;
+$about-col-padding-right: 0.5  * 0.8;
+$about-col-margin: 1  * 0.8 0;
+$about-col-border-radius: 12px;
+
+
+
+
+$about-card-padding: 0;
+$about-card-border: 0;
+
+$about-card-body-padding-top: 2  * 0.8;
+$about-card-body-padding-bottom: 2  * 0.8;
+$about-card-body-padding-left: 1  * 0.8;
+$about-card-body-padding-right: 1  * 0.8;
+
+
+$about-title-margin: 0.6 0;
+$about-title-font-size: 1  * 0.8;
+$about-title-font-weight: 600;
+
+
+$about-description-font-size: 0.6  * 0.8;
+$about-description-font-weight: 500;
+
+$partner-logo-container-padding: 0.5  * 0.8 0.5  * 0.8;
+
+
+$contact-section-margin-top: 5;
+$contact-section-height: 10  * 0.8;
+
+
+
+
+$contact-section-title-font-size: 1  * 0.8;
+$contact-section-title-font-weight: 600;
+
+
+$contact-section-title-margin: 0.312  * 0.8 0;
+
+$contact-section-description-font-size: 0.625  * 0.8;
+$contact-section-description-font-weight: 400;
+$contact-section-description-margin: 0.312;
+$contact-section-btn-padding: 0.312  * 0.8 0.625  * 0.8;
+$contact-section-btn-border-radius: 0.12  * 0.8;
+$contact-section-btn-font-size: 0.5  * 0.8;
+
+$footer-padding-top: 3;
+$footer-padding-bottom: 3;
+$footer-padding-left: 1;
+$footer-padding-right: 1;
+$footer-col-margin-right: 0.5;
+
+$logo-icon-font-size: 0.7;
+$logo-icon-margin-right: 0.2;
+$logo-title-font-size: 0.6;
+$logo-description-font-size: 0.375;
+
+$footer-col-title-font-size: 0.5;
+$footer-col-title-margin-bottom: 0.5;
+
+$footer-col-list-item-font-size: 0.375;
+$footer-col-list-item-margin-bottom: 0.3;
+
+$scroll-up-btn-position: fixed;
+$scroll-up-btn-bottom: 1;
+$scroll-up-btn-right: 1;
+$scroll-up-btn-width: 1.5;
+$scroll-up-btn-height: 1.5;
+
+$scroll-up-btn-arrow-up-font-size: 0.6;
+
+
+

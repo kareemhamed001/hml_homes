@@ -1,0 +1,23 @@
+<?php
+return [
+    'website_name' => 'Travel Agency',
+    'website_description' => 'Travel Agency',
+    'email' => 'example@gmail.com',
+    'phone' => '0123456789',
+    'about_us' => 'Travel Agency',
+    'facebook' => 'https://www.facebook.com/',
+    'instagram' => 'https://www.instagram.com/',
+    'youtube' => 'https://www.youtube.com/',
+    'linkedin' => 'https://www.linkedin.com/',
+    'whatsapp' => 'https://www.whatsapp.com/',
+    'twitter' => 'https://www.twitter.com/',
+    'telegram' => 'https://www.telegram.com/',
+    'snapchat' => 'https://www.snapchat.com/',
+    'tiktok' => 'https://www.tiktok.com/',
+    'pinterest' => 'https://www.pinterest.com/',
+    'tumblr' => 'https://www.tumblr.com/',
+    'flickr' => 'https://www.flickr.com/',
+    'vimeo' => 'https://www.vimeo.com/',
+    'skype' => 'https://www.skype.com/',
+    'logo' => 'https://www.logo.com/',
+];
